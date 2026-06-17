@@ -41,10 +41,19 @@ def index():
     html_content = """
     <html>
         <head>
-            <title>Some HTML in here</title>
+            <title>自己紹介ページ</title>
         </head>
         <body>
-            <h1>Look ma! HTML!</h1>
+            <h1>ようこそ!</h1>
+            <p>私の名前は安藤洋介です。</p>
+            <p>情報セキュリティについて勉強しています。</p>
+
+            <h2>趣味</h2>
+            <ul>
+                <li>プログラミング</li>
+                <li>漫画</li>
+                <li>ゲーム</li>
+            </ul>
         </body>
     </html>
     """
